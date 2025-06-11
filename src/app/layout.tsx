@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter, New_Rocker, Nunito } from 'next/font/google'
+import { Inter, New_Rocker, Nunito, Nova_Square } from 'next/font/google'
 import '../styles/globals.css'
 import { cn } from '@/lib/utils'
 import localFont from 'next/font/local'
@@ -23,6 +23,12 @@ const nunito = Nunito({
   variable: '--font-nunito',
 })
 
+const novaSquare = Nova_Square({
+  weight: ['400'],
+  subsets: ['latin'],
+  variable: '--font-nova-square',
+})
+
 export const metadata: Metadata = {
   title: '4DeR',
   description: "4der's Portfolio",
@@ -41,6 +47,7 @@ export default function RootLayout({
           nicoMoji.variable,
           newRocker.variable,
           nunito.variable,
+          novaSquare.variable,
           'antialiased',
         )}
       >
