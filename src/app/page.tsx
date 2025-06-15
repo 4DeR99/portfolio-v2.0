@@ -10,8 +10,10 @@ import Image from 'next/image'
 import { Container } from '@/components/system/Container'
 import { useEffect, useRef } from 'react'
 import Lenis from 'lenis'
+import { useRefreshOnResize } from '@/hooks/useRefreshOnResize'
 
 export default () => {
+  useRefreshOnResize()
   const animationRequestRef = useRef<number>(null)
 
   useEffect(() => {
