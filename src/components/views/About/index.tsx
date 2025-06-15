@@ -2,6 +2,7 @@ import { Container } from '@/components/system/Container'
 import React, { useEffect, useRef } from 'react'
 import { aboutMe } from './data'
 import useTextHighlighter from '@/hooks/useHighlightText'
+import { Title } from '@/components/system/Typography/Title'
 
 export const About = () => {
   const ref = useRef<HTMLDivElement>(null)
@@ -17,18 +18,16 @@ export const About = () => {
   }, [scrollHandler])
 
   return (
-    <Container className="flex w-full flex-col items-center gap-10 py-6">
-      <h1 className="font-novaSquare ~text-2xl/5xl text-center font-bold">
-        About me
-      </h1>
+    <Container className="~gap-5/10 ~py-4/6 flex w-full flex-col items-center">
+      <Title>About me</Title>
       <div
-        className="flex w-[85%] max-w-3xl flex-col gap-5"
+        className="flex w-[85%] max-w-3xl flex-col gap-5 text-justify"
         ref={ref}
       >
         {aboutMe.map((item, index) => (
           <p
             key={index}
-            className="~text-lg/xl"
+            className="~text-base/xl"
           >
             {item}
           </p>
