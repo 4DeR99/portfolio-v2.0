@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "fluid-tailwind": "^1.0.4",
+    "framer-motion": "^12.17.0",
+    "gsap": "^3.12.5",
+    "lenis": "^1.1.13",
     "next": "15.3.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
