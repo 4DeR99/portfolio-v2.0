@@ -11,6 +11,7 @@ interface ProjectCardProps {
   link?: string
   github?: string
   skills: string[]
+  collection?: string[]
 }
 
 export const ProjectCard = ({
@@ -19,6 +20,7 @@ export const ProjectCard = ({
   link,
   github,
   skills,
+  collection,
 }: ProjectCardProps) => {
   return (
     <div className="project-card my-4 min-h-[300px] p-6 transition-all duration-150 hover:scale-105">
@@ -54,6 +56,23 @@ export const ProjectCard = ({
                     className="h-[20px] w-[20px] object-contain"
                   />
                 </Link>
+              )}
+              {collection && (
+                <button
+                  onClick={() => {
+                    collection?.forEach((url) => {
+                      window.open(url, '_blank')
+                    })
+                  }}
+                >
+                  <Image
+                    src={LinkIcon}
+                    alt={title}
+                    width={20}
+                    height={20}
+                    className="h-[20px] w-[20px] object-contain"
+                  />
+                </button>
               )}
             </div>
           </div>
