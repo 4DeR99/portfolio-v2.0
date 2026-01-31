@@ -41,14 +41,14 @@ export const projects: Project[] = [
       'https://creon-liart.vercel.app/',
     ],
   },
-  // {
-  //   title: 'Hydra',
-  //   description:
-  //     'A landing page built with nextJs Tailwind and Gsap scrolltriggers.',
-  //   skills: ['NextJs', 'TailwindCSS', 'TypeScript', 'GSAP'],
-  //   github: 'https://github.com/4DeR99/hydra-website',
-  //   link: 'https://hydra-website.vercel.app/',
-  // },
+  {
+    title: 'Hydra',
+    description:
+      'A landing page built with nextJs Tailwind and Gsap scrolltriggers.',
+    skills: ['NextJs', 'TailwindCSS', 'TypeScript', 'GSAP'],
+    github: 'https://github.com/4DeR99/hydra-website',
+    link: 'https://hydra-website.vercel.app/',
+  },
   {
     title: 'wibi-todo',
     description: 'A dashboard app to manage tasks and todos.',
@@ -56,13 +56,13 @@ export const projects: Project[] = [
     github: 'https://github.com/4DeR99/wibi-todo',
     link: 'https://wibi-todo.vercel.app/',
   },
-  // {
-  //   title: 'Creon',
-  //   description: 'A landing page built with nextJs and TailwindCSS.',
-  //   technologies: ['NextJs', 'TailwindCSS', 'TypeScript'],
-  //   github: 'https://github.com/4DeR99/Creon',
-  //   demo: 'https://creon-liart.vercel.app/',
-  // },
+  {
+    title: 'Creon',
+    description: 'A landing page built with nextJs and TailwindCSS.',
+    skills: ['NextJs', 'TailwindCSS', 'TypeScript'],
+    github: 'https://github.com/4DeR99/Creon',
+    link: 'https://creon-liart.vercel.app/',
+  },
   {
     title: 'Meals App',
     description:
