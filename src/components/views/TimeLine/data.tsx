@@ -99,7 +99,7 @@ export const timelineData: TimelineEntry[] = [
     title: 'Full Stack Developer',
     companyName: 'LCMH',
     location: 'Australia',
-    startDate: '04-2025',
+    startDate: '09-2025',
     endDate: 'Present',
     skills: [
       'Next.js',
@@ -117,7 +117,7 @@ export const timelineData: TimelineEntry[] = [
         <p>
           I joined LCMH as a full stack developer, I worked on the{' '}
           <Link
-            href="https://lcmh.com"
+            href="https://lcmhub.com"
             target="_blank"
             rel="noopener noreferrer"
             className="font-bold text-blue-400 transition-colors hover:text-blue-300"
@@ -129,7 +129,7 @@ export const timelineData: TimelineEntry[] = [
         <p>
           I've also worked on the{' '}
           <Link
-            href="https://nulla.lcmh.com"
+            href="https://nulla.lcmhub.com"
             target="_blank"
             rel="noopener noreferrer"
             className="font-bold text-blue-400 transition-colors hover:text-blue-300"
